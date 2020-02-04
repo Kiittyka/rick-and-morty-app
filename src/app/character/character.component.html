@@ -1,0 +1,14 @@
+<div class="cards">
+    <div class="card" *ngFor="let character of charactersInfo">
+        <h4 class="card-title">{{character.name}}</h4>
+        <h4 class="card-subtitle">{{character.species}}</h4>
+        <img class="card-img-top img-fluid" src='{{character.image}}' alt='{{character.name}}' />
+        <p class="card-text">Status: {{character.status}}</p>
+        <p class="card-text">Gender: {{character.gender}}</p>
+        <p class="card-text"><small class="text-muted"></small>Origin: {{character.origin.name}}</p>
+        <p class="card-text">Created: {{character.created.substr(0, 10)}}</p>
+        <a routerLink="character/{{character.id}}">
+            <p class="card-text text-styles">View details</p>
+        </a>
+    </div>
+</div>

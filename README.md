@@ -1,6 +1,9 @@
 # RickAndMortyApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.21.
+## Description
+This is an Angular 8 application consuming the endpoints of the Rick and Morty API
+
+Checkout the app link deployed on Heroku: https://rick-and-morty-test-app.herokuapp.com/
 
 ## Development server
 
