@@ -1,3 +1,16 @@
+
+.card-subtitle {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(94, 94, 94);
+    padding-bottom: 5px;
+}
+
+.text-styles {
+    float: right;
+    padding-top: 2rem;
+}
+
 .cards {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
