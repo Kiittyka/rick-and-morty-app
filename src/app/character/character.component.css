@@ -38,8 +38,8 @@ img:hover + .button, .button:hover  {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-auto-rows: auto;
-    grid-gap: 1rem;
-    margin: 8px 7px 10px 7px;
+    grid-gap: 0.1rem;
+    margin: 10px;
 }
 .card {
     border: 2px solid #e7e7e7; 
