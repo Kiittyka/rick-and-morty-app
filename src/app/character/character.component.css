@@ -8,14 +8,12 @@
 .button {
     display: none;
     position: absolute;
-    top: 50%;
-    left: 25%;
-    right: 25%;
 }
 img:hover + .button, .button:hover  {
     display: block;
     position: absolute;
     opacity: 0.5;
+    margin: 0 auto;
     top: 70%;
     left: 20%;
     right: 25%;
