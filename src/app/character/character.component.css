@@ -5,25 +5,6 @@
 .card-image {
     position: relative;
 }
-.button {
-    display: none;
-    position: absolute;
-}
-img:hover + .button, .button:hover  {
-    display: block;
-    position: absolute;
-    opacity: 0.5;
-    margin: 0 auto;
-    top: 70%;
-    left: 20%;
-    right: 25%;
-    background-color: #555;
-    color: white;
-    font-size: 16px;
-    font-weight: 500;
-    padding: 12px 24px;
-    text-align: center;
-}
 .card-subtitle {
     font-size: 14px;
     font-weight: 400;
